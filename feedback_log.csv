@@ -1,0 +1,7 @@
+timestamp,operator,transition_id,suggestion,source,response
+2026-07-25T20:19:23,op1,9,"Set steam 3.1 bar, staged ramp",[recipe]+[historical #3],accept
+2026-07-25T20:19:23,op1,12,"Set stock 140, hold speed 860",[recipe]+[historical #7],accept
+2026-07-25T20:19:23,op1,15,Slow ramp (low retention),[model: P5 retention],reject
+2026-07-25T20:19:23,op1,23,Set steam 4.0 bar for G150,[recipe]+[historical #8],accept
+2026-07-25T20:19:23,op1,31,Increase filler to 22,[historical #18],reject
+2026-07-25T20:19:23,op1,36,Staged ramp + tighter hold,[model: P5 retention],accept
